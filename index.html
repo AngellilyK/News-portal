@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsAlps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles-mini.css">
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>	
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <!-- End WOWSlider.com HEAD section -->
+</head>
+<body class="home-page">
+    <section class="head">
+        <img class="bg-head" src="images/BG-Home.jpg" alt="mountains and lake">
+        <header class="header">
+            <object type="image/svg+xml"  data="images/Logo.svg" class="logo"></object>
+            <nav class="header-nav">
+                <input id="menu-toggle" type="checkbox">
+                <label class="menu-btn" for="menu-toggle">
+                        <span></span>
+                </label>
+                <ul class="list-links list-links-burger">
+                    <li class="list-item"><a class="link-header link-header_active" href="index.html">Home</a></li>
+                    <li class="list-item"><a class="link-header" href="about.html" target="_blank">About</a></li>
+                    <li class="list-item"><a class="link-header" href="all-news.html" target="_blank">Recent news</a></li>
+                    <li class="list-item"><a class="link-header" href="#" target="_blank">Gallery</a></li>
+                    <li class="list-item"><a class="link-header" href="all-news.html" target="_blank">Blog</a></li>
+                    <li class="list-item"><a class="link-header" href="#footer">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="head-title">
+            <h1 class="title"><a href="all-news.html" target="_blank">WHAT'S NEW?</a></h1>
+            <h2 class="subtitle">HOT NEWS OF A COLD COUNTRY</h2>
+        </div>
+        <form action="all-news.html" target="_blank">
+                <button class="transparent-btn">Read More</button>
+        </form>
+    </section>
+    <main class="page-home-main">
+        <section class="section-featured-news">
+            <h3 class="subtitle section-name"><a href="all-news.html" target="_blank">Featured news</a></h3>
+            <p class="see-all"><a href="all-news.html" target="_blank">See all</a></p>
+            <div class="featured-news">
+                <div>
+                    <img src="images/featured1-1.jpg" alt="Hallstatt" class="adaptive-image">
+                    <a href="all-news.html" target="_blank" class="tag-category">Travel</a>
+                </div>
+                <p class="news-title"><a href="post.html" class="link-to-whole-block">Experts tell us what skiing holidays will be like this winter</a></p>
+                <p class="news-date">February 20, 2021</p>
+            </div>
+            <div class="featured-news">
+                <div>
+                    <img src="images/featured1-2.jpg" alt="Skier" class="adaptive-image">
+                    <a href="all-news.html" target="_blank" class="tag-category tag-category-big">Sport</a>
+                </div>
+                <p class="news-title"><a href="post.html" class="link-to-whole-block">The ski camp of the men’s and junior teams has ended</a></p>
+                <p class="news-date">February 20, 2021</p>
+            </div>
+            <div class="featured-news">
+                <div>
+                    <img src="images/featured1-3.jpg" alt="House on the lake" class="adaptive-image">
+                    <a href="all-news.html" target="_blank" class="tag-category">Incidents</a>
+                </div>
+                <p class="news-title"><a href="post.html" class="link-to-whole-block">Abnormal warming leaves the mountain slopes without snow</a></p>
+                <p class="news-date">February 20, 2021</p>
+            </div>
+            <div class="featured-news">
+                <div>
+                    <img src="images/featured1-4.jpg" alt="Danger sign" class="adaptive-image">
+                    <a href="all-news.html" target="_blank" class="tag-category">Incidents</a>
+                </div>
+                <p class="news-title"><a href="post.html" class="link-to-whole-block">An avalanche covered a group of skiers in the Alps</a></p>
+                <p class="news-date">February 20, 2021</p>
+            </div>
+        </section>
+        <section class="section-category-selection">
+            <h3 class="subtitle section-name"><a href="all-news.html" target="_blank">Top categories</a></h3>
+            <nav class="category-nav">
+                <ul class="list-links">
+                    <li class="list-item"><a class="link-category link-category-active" href="#" data-tab="1">Sport</a></li>
+                    <li class="list-item"><a class="link-category" href="#" data-tab="2">Announcement</a></li>
+                    <li class="list-item"><a class="link-category" href="#" data-tab="3">Incidents</a></li>
+                    <li class="list-item"><a class="link-category" href="#" data-tab="4">Entertainment</a></li>
+                    <li class="list-item"><a class="link-category last-category" href="#" data-tab="5">Travel</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="selected-news">
+            <div class="section-category section-category-active" data-tab-content="1">
+                <div class="big-news-category">
+                    <p class="big-news-title"><a href="post.html" class="link-to-whole-block">Alpine walk for extreme lovers</a></p>
+                </div>
+                <div class="news-category">
+                    <h3 class="subtitle section-name"><a href="all-news.html" target="_blank">Hot news</a></h3>
+                    <p class="see-all"><a href="all-news.html" target="_blank">See all</a></p>
+                    <div class="hot-news">
+                        <img src="images/hotnews-sport-1.jpg" alt="View from the window" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">100 days to go until the start of the season</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                    <div class="hot-news">
+                        <img src="images/hotnews-sport-2.jpg" alt="Skier" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">One of the best skiers drop out of competition</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                    <div class="hot-news">
+                        <img src="images/hotnews-sport-3.jpg" alt="Cable car" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">Freeride in the death zone</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-category" data-tab-content="2">
+                <div class="big-news-category big-news-category_announcement">
+                    <p class="big-news-title"><a href="post.html" class="link-to-whole-block">The collapse of glaciers due to warming is recorded</a></p>
+                </div>
+                <div class="news-category">
+                    <h3 class="subtitle section-name"><a href="all-news.html" target="_blank">Hot news</a></h3>
+                    <p class="see-all"><a href="all-news.html" target="_blank">See all</a></p>
+                    <div class="hot-news">
+                        <img src="images/hotnews-announcement-1.jpg" alt="Mountains and lake" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">A cracked mountain can fall apart</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                    <div class="hot-news">
+                        <img src="images/hotnews-announcement-2.jpg" alt="Travellers in the mountains" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">Hiking suspended due to worsening weather</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                    <div class="hot-news">
+                        <img src="images/hotnews-announcement-3.jpg" alt="View from the window" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">Warming leaves alpine slopes without snow</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-category" data-tab-content="3">
+                <div class="big-news-category big-news-category_incidents">
+                    <p class="big-news-title"><a href="post.html" class="link-to-whole-block">A skier rescued a girl who had fallen in the snow</a></p>
+                </div>
+                <div class="news-category">
+                    <h3 class="subtitle section-name"><a href="all-news.html" target="_blank">Hot news</a></h3>
+                    <p class="see-all"><a href="all-news.html" target="_blank">See all</a></p>
+                    <div class="hot-news">
+                        <img src="images/hotnews-incidents-1.jpg" alt="Forest in the mountains" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">Some people died after the avalanche</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                    <div class="hot-news">
+                        <img src="images/hotnews-incidents-2.jpg" alt="Cable car" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">A plane dived onto a cable car</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                    <div class="hot-news">
+                        <img src="images/hotnews-incidents-3.jpg" alt="Forest in the mountains" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">Travellers stuck on the road to the Alps</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-category" data-tab-content="4">
+                <div class="big-news-category big-news-category_entertainment">
+                    <p class="big-news-title"><a href="post.html" class="link-to-whole-block">Walking on mountain trails</a></p>
+                </div>
+                <div class="news-category">
+                    <h3 class="subtitle section-name"><a href="all-news.html" target="_blank">Hot news</a></h3>
+                    <p class="see-all"><a href="all-news.html" target="_blank">See all</a></p>
+                    <div class="hot-news">
+                        <img src="images/hotnews-entertainment-1.jpg" alt="Forest in the mountains" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">Living in huts, will you choose or not?</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                    <div class="hot-news">
+                        <img src="images/hotnews-entertainment-2.jpg" alt="Mountain goat" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">Goat sledding in the Vars</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                    <div class="hot-news">
+                        <img src="images/hotnews-entertainment-3.jpg" alt="Gopher" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">National parks of the Alps</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-category" data-tab-content="5">
+                <div class="big-news-category big-news-category_travel">
+                    <p class="big-news-title"><a href="post.html" class="link-to-whole-block">The famous Hallstatt in Austria: consider the sights</a></p>
+                </div>
+                <div class="news-category">
+                    <h3 class="subtitle section-name"><a href="all-news.html" target="_blank">Hot news</a></h3>
+                    <p class="see-all"><a href="all-news.html" target="_blank">See all</a></p>
+                    <div class="hot-news">
+                        <img src="images/hotnews-travel-1.jpg" alt="Forest in the mountains" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">The Alps in summer vs the Alps in winter</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                    <div class="hot-news">
+                        <img src="images/hotnews-travel-2.jpg" alt="Things for a hike" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">Talk a bit about the Alpine style of climbing</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                    <div class="hot-news">
+                        <img src="images/hotnews-travel-3.jpg" alt="Cable car" class="adaptive-image">
+                        <p class="news-title"><a href="post.html" class="link-to-whole-block">The highest cableway, it's breathtaking</a></p>
+                        <p class="news-date">February 20, 2021</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start WOWSlider.com BODY section -->
+        <div class="video">
+            <h3 class="subtitle section-name"><a href="#" target="_blank">Popular videos</a></h3>
+            <div id="wowslider-container1">
+                <div class="ws_images"><ul>
+                        <li><iframe width="100" height="100" src="https://www.youtube.com/embed/3PZ65s2qLTE?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" allowfullscreen></iframe><img src="data1/images/3pz65s2qlte.png" alt="The Alps 4K - 60 Minute Relaxation Film with Calming Music" title="The Alps 4K - 60 Minute Relaxation Film with Calming Music" id="wows1_0"/></li>
+                        <li><iframe width="100" height="100" src="https://www.youtube.com/embed/Y97wob0akMg?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" allowfullscreen></iframe><img src="data1/images/y97wob0akmg.png" alt="bootstrap image slider" title="Top 10 Places To Visit In The Alps" id="wows1_1"/></li>
+                        <li><iframe width="100" height="100" src="https://www.youtube.com/embed/FCPdIvXo2rU?autoplay=0&rel=0&enablejsapi=1&playerapiid=ytplayer&wmode=transparent" allowfullscreen></iframe><img src="data1/images/fcpdivxo2ru.png" alt="The Alps 4K | Drone & iPhone X" title="The Alps 4K | Drone & iPhone X" id="wows1_2"/></li>
+                    </ul></div>
+                    <div class="ws_bullets"><div>
+                        <a href="#" title="The Alps 4K - 60 Minute Relaxation Film with Calming Music"><span><img src="data1/tooltips/3pz65s2qlte.png" alt="The Alps 4K - 60 Minute Relaxation Film with Calming Music"/>1</span></a>
+                        <a href="#" title="Top 10 Places To Visit In The Alps"><span><img src="data1/tooltips/y97wob0akmg.png" alt="Top 10 Places To Visit In The Alps"/>2</span></a>
+                        <a href="#" title="The Alps 4K | Drone & iPhone X"><span><img src="data1/tooltips/fcpdivxo2ru.png" alt="The Alps 4K | Drone & iPhone X"/>3</span></a>
+                    </div></div>
+                <div class="ws_shadow"></div>
+            </div>
+        </div>	
+    <!-- End WOWSlider.com BODY section -->
+        <div class="blog-gallery-search">
+            <section class="section-blog">
+                <h3 class="subtitle section-name"><a href="all-news.html" target="_blank">Latest blog posts</a></h3>
+                <p class="see-all"><a href="all-news.html" target="_blank">See all</a></p>
+                <div class="blog-post">
+                    <div class="img-and-tag">
+                        <img src="images/blog1.jpg" alt="Boats" class="adaptive-image">
+                        <a href="all-news.html" target="_blank" class="tag-category">Travel</a> 
+                    </div>
+                    <p class="news-title news-title-big"><a href="post.html" class="link-to-whole-block">Ten places that everyone should visit</a></p>
+                    <p class="text-news">There are a lot of beautiful and incredible places in the world, sometimes you can get lost when deciding where to go, and the lack of reliable information about such trips can completely confuse you. Analysis of routes, current prices, iconic sights and national cuisine, what could be better.</p>
+                    <p class="news-date">February 20, 2021</p>
+                </div>
+                <div class="blog-post">
+                    <div class="img-and-tag">
+                        <img src="images/blog2.jpg" alt="Dawn in the mountains" class="adaptive-image">
+                        <a href="all-news.html" target="_blank" class="tag-category">Travel</a>
+                    </div>
+                    <p class="news-title news-title-big"><a href="post.html" target="_blank" class="link-to-whole-block">Selection of our readers’ stories for a week - travel instructions</a></p>
+                    <p class="text-news">Our readers from different countries share their experiences of hiking in the Alps every day. Some suddenly decide to go on a trip, others make through preparations and share the results with us, so that you can also go hiking without any problems and get a lot of  positive emotions without worrying about anything.</p>
+                    <p class="news-date">February 20, 2021</p>
+                </div>
+            </section>
+            <section class="section-gallery">
+                <h3 class="subtitle section-name"><a href="#" target="_blank">Gallery</a></h3>
+                <p class="see-all"><a href="#" target="_blank">See all</a></p>
+                <img src="images/featured1-1.jpg" alt="Hallstatt" class="adaptive-image">
+                <img src="images/featured1-2.jpg" alt="Skier" class="adaptive-image">
+                <img src="images/featured1-3.jpg" alt="House on the lake" class="adaptive-image">
+                <img src="images/hotnews-announcement-1.jpg" alt="Mountains and lake" class="adaptive-image">
+                <img src="images/hotnews-sport-2.jpg" alt="Skier" class="adaptive-image">
+                <img src="images/hotnews-sport-big.jpg" alt="Mountains and lake" class="adaptive-image">
+            </section>
+            <section class="section-search">
+                <form>
+                    <label for="search" class="subtitle section-name">Search</label>
+                    <div class="search-field">
+                        <input id="search" name="search" placeholder="I’m looking for ..." type="search">
+                        <button class="transparent-btn">Search</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <section class="section-monthly-hike">
+            <div>
+                <h3 class="subtitle section-name"><a href="monthly-hike.html" target="_blank">Monthly hike</a></h3>
+                <p class="see-all"><a href="monthly-hike.html" target="_blank">See all</a></p>
+            </div>
+            <a href="monthly-hike.html" target="_blank"><img src="images/monthly-hike.png" alt="Hike map"></a>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer-about">
+            <div>
+                <p class="footer-text">The site is designed for</p>
+                <p class="footer-text second-line">educational purposes</p>
+            </div>
+            <h3 class="footer-title">ABOUT US</h3>
+            <div>
+                <p class="footer-text"><a href="tel:+123456789100" target="_blank">+ (123) 456-789-100</a></p>
+                <p class="footer-text second-line"><a href="mailto:info@demolink.org" target="_blank">info@demolink.org</a></p>
+            </div>
+        </div>
+        <div class="footer-newsletter">
+            <h3 class="footer-title">NEWSLETTER</h3>
+            <form class="field-newsletter" id="#newsletter">
+                <input name="email" placeholder="Enter your email" type="email">              
+            </form>
+            <button form="#newsletter" class="transparent-btn">Subscribe</button>
+        </div>
+        <div class="footer-navigation">
+            <div> 
+                <div class="navigation-bar-footer"><a href="all-news.html" target="_blank">Features news</a><a href="all-news.html" target="_blank">Hot news</a></div>
+                <div class="navigation-bar-footer second-line"><a href="#" target="_blank">Gallery</a><a href="#" target="_blank">Videos</a></div>
+            </div>
+            <h3 class="footer-title">NAVIGATION</h3>
+            <div>
+                <div class="navigation-bar-footer">
+                    <a href="monthly-hike.html" target="_blank">Monthly hike</a>
+                    <a href="all-news.html" target="_blank">Travel</a></div>
+                <div class="navigation-bar-footer second-line"><a href="about.html" target="_blank">About</a><a href="#" target="_blank">Contacts</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/javascript.js"></script>
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+</body>
+</html>
